@@ -125,16 +125,16 @@ These instructions correspond to the example project linked above, where you can
 
 We welcome contributions to this project! To contribute:
 
-1. **Report Issues**: If you encounter a bug or have a question, please submit an issue in the [issue tracker](#).
-2. **Feature Requests**: For feature requests, open a new issue with a detailed description of your proposed change.
-3. **Pull Requests**: Fork the repository, make your changes in a separate branch, and submit a pull request. Ensure your code follows standard coding conventions and includes clear documentation.
+- **Report Issues**
+- **Feature Requests**
+- **Pull Requests**
 
 Thank you for contributing!
 
 ---
 
-- **Author**: [Ivelin Tanev](https://github.com/xTh3XL10NFTx)
-- **Email**: IvelinTanev.IT@gmail.com
+   ### **Author**: [Ivelin Tanev](https://github.com/xTh3XL10NFTx)
+   #### **Email**: IvelinTanev.IT@gmail.com
 
 ---
 
