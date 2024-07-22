@@ -6,11 +6,44 @@ Additionally, the repository includes an example project that demonstrates how t
 
 ## Features
 
-- **Add Items**: Add new items to the inventory with details such as name, quantity, and price.
-- **Edit Items**: Modify existing item details including name, quantity, and price.
-- **Delete Items**: Remove items from the inventory.
-- **Search Items**: Search for items by ID, name, availability, or price.
-- **Display Items**: Show all items currently in the inventory.
+- **Add Items**: Quickly add new items to your inventory with a name, quantity, and price.
+- **Edit Items**: Update item details, including name, quantity, and price.
+- **Delete Items**: Remove items from your inventory when they are no longer needed.
+- **Display Items**: View a comprehensive list of all items in your inventory.
+- **Search Functionality**: Find items by ID, name, or price. Filter items based on availability.
+
+## Installation
+
+To get started with the **Inventory Management System**, follow these steps:
+
+1. **Clone the Repository**
+
+    ```bash
+    git clone https://github.com/yourusername/inventory-management-system.git
+    ```
+
+2. **Navigate to the Project Directory**
+
+    ```bash
+    cd inventory-management-system
+    ```
+
+3. **Build the Project**
+
+   If you’re using a typical C++ build setup with `CMake`, create a build directory and compile the code:
+
+    ```bash
+    mkdir build
+    cd build
+    cmake ..
+    make
+    ```
+
+4. **Run the Application**
+
+    ```bash
+    ./InventoryManagementSystem
+    ```
 
 ## Code Usage
 
@@ -33,7 +66,7 @@ For practical examples of how to use these functions, check out the [example pro
 
 ## Example Usage
 
-Here’s a step-by-step guide on how to use the Inventory Management System:
+Once the application is running, you can interact with it through the console. Here’s a brief overview of the available options:
 1. **Add Item**:
    - Select option `1` from the main menu to add a new item.
    - Provide the item name, quantity, and price when prompted.
@@ -67,3 +100,12 @@ We welcome contributions to this project! To contribute:
 3. **Pull Requests**: Fork the repository, make your changes in a separate branch, and submit a pull request. Ensure your code follows standard coding conventions and includes clear documentation.
 
 Thank you for contributing!
+
+---
+
+- **Author**: [Ivelin Tanev](https://github.com/xTh3XL10NFTx)
+- **Email**: IvelinTanev.IT@gmail.com
+
+---
+
+Happy managing your inventory! 🛒🚀
