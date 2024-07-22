@@ -45,7 +45,7 @@ To get started with the **Inventory Management System**, follow these steps:
     ./InventoryManagementSystem
     ```
 
-## Code Usage
+## Inventory Module Code Usage
 
 The following functions are available in the `Inventory` module, which you can use to manage the inventory:
 ```cpp
@@ -62,11 +62,41 @@ public:
     bool isEmpty() const;
 };
 ```
+
+#### Method descriptions:
+
+- **`void addItem(const std::string& name, int quantity, double price);`**  
+  Adds a new item to the inventory with the specified name, quantity, and price.
+
+- **`void editItem(int id, const std::string& name, int quantity, double price);`**  
+  Edits the item with the specified ID, updating its name, quantity, and price.
+
+- **`void deleteItem(int id);`**  
+  Deletes the item with the specified ID from the inventory.
+
+- **`void displayItems() const;`**  
+  Displays all items currently in the inventory.
+
+- **`Item* searchById(int id) const;`**  
+  Searches for an item by its ID and returns a pointer to it.
+
+- **`std::vector<Item> searchByName(const std::string& name) const;`**  
+  Searches for items by name and returns a vector of matching items.
+
+- **`std::vector<Item> searchByPrice(double price) const;`**  
+  Searches for items by price and returns a vector of matching items.
+
+- **`std::vector<Item> searchByAvailability() const;`**  
+  Searches for available items and returns a vector of matching items.
+
+- **`bool isEmpty() const;`**  
+  Checks if the inventory is empty and returns a boolean value.
+
 For practical examples of how to use these functions, check out the [example project here](https://github.com/xTh3XL10NFTx/InventoryManagement-Module/blob/master/InventoryManagement.cpp).
 
 ## Example Usage
 
-Once the application is running, you can interact with it through the console. Here’s a brief overview of the available options:
+You can run the application to explore the example project. Once launched, interact with it directly through the console. Here’s a quick overview of the available options:
 1. **Add Item**:
    - Select option `1` from the main menu to add a new item.
    - Provide the item name, quantity, and price when prompted.
