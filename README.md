@@ -29,7 +29,7 @@ public:
     bool isEmpty() const;
 };
 ```
-For practical examples of how to use these functions, check out the [example project here.]([https://github.com/google/googletest](https://github.com/xTh3XL10NFTx/InventoryManagement-Module/blob/master/InventoryManagement.cpp)).
+For practical examples of how to use these functions, check out the [example project here](https://github.com/xTh3XL10NFTx/InventoryManagement-Module/blob/master/InventoryManagement.cpp).
 
 ## Example Usage
 
