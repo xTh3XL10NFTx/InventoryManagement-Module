@@ -121,6 +121,36 @@ You can run the application to explore the example project. Once launched, inter
 
 These instructions correspond to the example project linked above, where you can see how these functions are implemented and used in practice.
 
+## Future Improvements
+### Unit Tests
+Implementing unit tests is a crucial next step for improving the reliability and maintainability of the Inventory Management System. Unit tests will help ensure that the functions perform as expected and will make it easier to identify and fix bugs.
+
+#### Potential Unit Test Frameworks:
+
+   - Google Test (gtest): A popular C++ testing framework that is easy to integrate and use.
+#### Example of a Simple Unit Test:
+```cpp
+#include <gtest/gtest.h>
+#include "Inventory.h"
+
+TEST(InventoryTest, AddItem) {
+    Inventory inventory;
+    inventory.addItem("Laptop", 10, 999.99);
+    auto* item = inventory.searchById(1);
+    ASSERT_NE(item, nullptr);
+    EXPECT_EQ(item->name, "Laptop");
+    EXPECT_EQ(item->quantity, 10);
+    EXPECT_DOUBLE_EQ(item->price, 999.99);
+}
+
+int main(int argc, char **argv) {
+    ::testing::InitGoogleTest(&argc, argv);
+    return RUN_ALL_TESTS();
+}
+```
+
+Integrating unit tests into your development workflow will provide numerous benefits, including increased code quality, easier refactoring, and better documentation of the expected behavior of your code.
+
 ## Contributing
 
 We welcome contributions to this project! To contribute:
