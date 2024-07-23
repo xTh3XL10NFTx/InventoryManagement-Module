@@ -93,5 +93,5 @@ std::vector<Item> Inventory::searchByAvailability() const {
 
 // example usage: for checking if theres items before opening edit or delete
 bool Inventory::isEmpty() const {
-    return items.empty(); // Return true if no items in inventory
+    return items.empty(); // return true if no items in inventory
 }
